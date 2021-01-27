@@ -1,60 +1,55 @@
 .container {
-    padding: 10px;
-    border: 1px solid #999;
+  width: 30%;
+  min-width: 350px;
 }
 
 .form {
-    display: flex;
+  display: flex;
 
-    flex-direction: row;
+  flex-direction: row;
 
-    margin: 10px 0px;
+  margin: 10px 0px;
 
-    gap: 10px;
+  gap: 10px;
 }
 
 .form > input {
-    flex: 4;
+  flex: 4;
+  height: 20px;
+  padding: 10px;
 
-    height: 20px;
-
-    padding: 10px;
+  font-size: 16px;
 }
 
 .form > button {
-    flex: 1;
+  flex: 1;
 }
 
 .item {
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    align-items: center;
-
-    justify-content: space-between;
-
-    margin-bottom: 8px;
-
-    border: 1px solid black;
+  border: 1px solid black;
+  margin-bottom: 5px;
 }
 
 .item > p {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
-.item > span {
-    font-size: 30px;
-    font-weight: bold;
+.item > div > span {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
 
-    margin-right: 10px;
-
-    cursor: pointer;
-
-    transition: 0.2s;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.item > span:hover {
-    color: red;
+.item > div > span:hover {
+  color: red;
 }
